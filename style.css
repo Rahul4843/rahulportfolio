@@ -346,31 +346,29 @@ a {
 
 /* Footer Section */
 .footer {
-  background-color: #333; /* Keep the original background color */
-  color: white;
-  padding: 20px;
-  text-align: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    position: relative;
 }
 
-.footer .social-link {
-  margin: 0 10px;
+.social-link {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #007BFF;
 }
 
-.footer .icon {
-  filter: invert(1);
-  width: 36px;
-  height: 36px;
-  margin: 0 10px;
+.social-link:hover {
+    text-decoration: underline;
 }
 
-.footer a {
-  color: white;
-  text-decoration: none;
+.email-logo {
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 5px;
 }
 
-.footer a:hover {
-  text-decoration: none;
-}
 
 /* Navigation Bar */
 .navbar {
