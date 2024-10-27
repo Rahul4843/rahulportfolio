@@ -344,18 +344,18 @@ a {
   background-color: #0056b3;
 }
 
-/* Footer Section */
 .footer {
-    background-color: #f8f8f8;
+    background-color: #333;
     padding: 20px;
     text-align: center;
     position: relative;
+    color: white;
 }
 
 .social-link {
     margin: 0 15px;
     text-decoration: none;
-    color: #007BFF;
+    color: white;
 }
 
 .social-link:hover {
@@ -367,7 +367,11 @@ a {
     height: auto;
     vertical-align: middle;
     margin-right: 5px;
+    filter: invert(1); 
 }
+
+
+
 
 
 /* Navigation Bar */
