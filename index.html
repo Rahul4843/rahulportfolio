@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="logo">Rahul Portfolio</div>
+      <div class="hamburger" id="hamburger">
+        &#9776;
+        <!-- Hamburger icon -->
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact" class="cta">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+      <div class="home-content">
+        <div class="home-text">
+          <h1>Hi, I'm Rahul!</h1>
+          <h2 class="typing-effect">I'm a Full-Stack Web Developer</h2>
+          <p>
+            I specialize in building modern, responsive websites with
+            JavaScript, CSS, and more. Explore my portfolio to see what I've
+            been working on!
+          </p>
+          <a href="#about" class="btn-primary">Learn More About Me</a>
+        </div>
+        <div class="home-image">
+          <img src="Images/Rahul Photo.png" alt="Rahul" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="about-content">
+        <div class="about-image">
+          <img src="Images/aboutme.jpg" alt="Rahul" />
+        </div>
+        <div class="about-text">
+          <h1>About Me</h1>
+          <p>
+            Hi there! 👋 I'm Rahul, a passionate Full-Stack Web Developer
+            currently pursuing a Bachelor of Information Technology at
+            Federation University. My primary focus is on JavaScript and CSS,
+            and I'm eager to contribute to impactful projects in the IT
+            industry.
+          </p>
+          <p>
+            With experience in building user-centric websites and e-commerce
+            solutions, I have a solid foundation in front-end development. I'm
+            now transitioning into IT roles where I can combine strong web
+            development skills with a customer-centric approach to create
+            innovative solutions.
+          </p>
+          <p>
+            Let's connect and work together to make a positive impact in the IT
+            industry!
+          </p>
+          <h3>Skills</h3>
+          <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>MongoDB</li>
+            <li>Figma</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+      <h1>My Projects</h1>
+      <div class="projects-container">
+        <!-- Project 1 -->
+        <div class="project-box">
+          <img
+            id="xpmcimg"
+            src="Images/XPMC.jpeg"
+            alt="End User System Malfunctioning"
+            class="project-image"
+          />
+          <h2>End User System Malfunctioning</h2>
+          <p class="project-date">Apr 2024 - Present</p>
+          <p>
+            Participated in a comprehensive malware analysis project, involving
+            static analysis, dynamic analysis, network analysis, and reverse
+            engineering.
+          </p>
+          <a href="https://rb.gy/ti4j96" class="project-link">Know More</a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-box">
+          <img
+            src="Images/Sharadha.jpg"
+            alt="Sharada Liquid Shop"
+            class="project-image"
+          />
+          <h2>Sharada Liquid Shop Udhyoug</h2>
+          <p class="project-date">Apr 2022</p>
+          <p>
+            Created a website utilizing HTML, CSS, and JavaScript, emphasizing a
+            minimalist design approach that aligns with the client's
+            preferences.
+          </p>
+          <a
+            href="https://rahul4843.github.io/Sharada_Liquids.github.io/"
+            class="project-link"
+            >Know More</a
+          >
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-box">
+          <img
+            src="Images/Federation University.jpg"
+            alt="Portfolio Website"
+            class="project-image"
+          />
+          <h2>Portfolio Website (University Project)</h2>
+          <p class="project-date">Mar 2023 - May 2023</p>
+          <p>
+            Created a responsive personal portfolio website of a imaginary
+            internship program effectively showcasing my web design skills and
+            projects as a Uni Project.
+          </p>
+          <a href="link-to-project3.com" class="project-link">Know More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="contact-content">
+        <div class="contact-form-container">
+          <h1>Contact Me</h1>
+          <form class="contact-form">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="John Adams"
+              required
+            />
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="johnadams@example.com"
+              required
+            />
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit" class="send-button">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+      <a
+        href="https://github.com/Rahul4843"
+        class="social-link"
+        target="_blank"
+      >
+        <img src="images/github.png" alt="GitHub" class="icon" />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/rahul-kandel-53a0a821a/"
+        class="social-link"
+        target="_blank"
+      >
+        <img src="images/linkedin.png" alt="LinkedIn" class="icon" />
+      </a>
+      <a href="mailto:kndlrahul005@gmai.com" class="social-link">
+        <img src="images/mail.png" alt="Gmail" class="icon" /> </a
+      ><br />
+      <p>&copy; 2024 Rahul Kandel. All Rights Reserved.</p>
+      <p>
+        <a
+          href="https://www.flaticon.com/free-icons/github"
+          title="github icons"
+        ></a
+        ><br />
+        <a
+          href="https://www.flaticon.com/free-icons/linkedin"
+          title="linkedin icons"
+        ></a
+        ><br />
+        <a
+          href="https://www.flaticon.com/free-icons/gmail"
+          title="gmail icons"
+        ></a>
+      </p>
+    </footer>
+
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const navLinks = document.getElementById("nav-links");
+
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

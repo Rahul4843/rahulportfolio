@@ -1,0 +1,163 @@
+@media (max-width: 596px) {
+  /* Home Section */
+  .home-section {
+    padding: 20px 10px;
+    background-color: white;
+    width: 100vw;
+  }
+
+  .home-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .home-text {
+    padding: 0;
+    margin: 0;
+  }
+
+  .home-text h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .home-text h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .home-text p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    padding: 0 10px;
+  }
+
+  .btn-primary {
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .home-image img {
+    width: 200rem;
+    height: auto;
+  }
+
+  /* About Section */
+  .about-section {
+    padding: 50px 15px;
+    flex-direction: column;
+  }
+
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-image img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .about-text {
+    padding: 0;
+    width: 100%;
+  }
+
+  .about-text h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .about-text p {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    padding: 0 10px;
+  }
+
+  .skills-list {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .skills-list li {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+
+  /* Portfolio Section */
+  .portfolio-section {
+    padding: 30px 15px;
+  }
+
+  .projects-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-box {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .project-box h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .project-date,
+  .project-box p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .project-image {
+    width: 80px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .project-link {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+
+  /* Contact Section */
+  .contact-section {
+    padding: 30px 15px;
+    width: 90%;
+  }
+
+  .contact-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-form-container {
+    margin: 0;
+    width: 100%;
+  }
+
+  .contact-form label {
+    font-size: 14px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .send-button {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
